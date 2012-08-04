@@ -54,6 +54,7 @@
 </style>
 
 <script src="https://hangoutsapi.talkgadget.google.com/hangouts/_/api/hangout.js?v=1.1" ></script>
+<script src="https://dl.dropbox.com/u/1766567/StreetViewHangout/app.js"></script>
 
 <div id='wrap'>
     <div id='main'>
@@ -78,6 +79,5 @@
         as you are seen.  Check the checkbox to mirror and unmirror your data.</p>
     </div>
 </div>
-<script src="app.js"></script>
 <br/>
 ]]></Content></Module>
