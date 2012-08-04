@@ -247,14 +247,15 @@ var State = function() {
 
 var state = new State();
 
+var runIntervalId = 0;
+
 function start() {
-	
+	runIntervalId = setInterval(run, 100);
 }
 
 function run() {
 	var newState = hasStateChanged(state);
 	if (newState) {
-	}
+		updateCanvas(state);
 	}
 }
-
