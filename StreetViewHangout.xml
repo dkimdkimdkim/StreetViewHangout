@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    ﻿  <!-- Copyright 2012 Google Inc. All Rights Reserved -->
-    ﻿  <Module>
-    ﻿    <ModulePrefs title="Face Movement" height="200" width="550">
-    ﻿    <Require feature="dynamic-height"/>
-    ﻿    <Require feature="rpc"/>
+        <!-- Copyright 2012 Google Inc. All Rights Reserved -->
+        <Module>
+          <ModulePrefs title="Face Movement" height="200" width="550">
+          <Require feature="dynamic-height"/>
+          <Require feature="rpc"/>
           <Require feature="views" />
-    ﻿  </ModulePrefs>
-    ﻿  <Content type="html"><![CDATA[
+        </ModulePrefs>
+        <Content type="html"><![CDATA[
 <!DOCTYPE html>
           
 <style type="text/css">
@@ -21,8 +21,8 @@
   border: 1px solid #bbb;
 }
 .button:active {
-﻿  background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#333)); 
-﻿  background: -moz-linear-gradient(bottom, #ddd, #aaa); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#333)); 
+        background: -moz-linear-gradient(bottom, #ddd, #aaa); 
     background: -ms-linear-gradient(top, #fff, #ddd);   
     background: -o-linear-gradient(top, #fff, #ddd);   
 }
